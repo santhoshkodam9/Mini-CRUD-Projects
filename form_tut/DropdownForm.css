@@ -1,0 +1,42 @@
+* Reset default margin and padding for better alignment *
+body, h1, h2, p, label, select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the form vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Style the form container */
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Style form dropdowns */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Add some spacing between form elements */
+.form-container > div {
+  margin-bottom: 15px;
+}
